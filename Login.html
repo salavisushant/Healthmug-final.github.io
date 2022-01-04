@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Healthmug | Your Gateway to Health</title>
+    <link rel="stylesheet" href="./style/login.css">
+  
+    <meta name="theme-color" content="#51c9a6">
+    <meta name="msapplication-navbutton-color" content="#51c9a6">
+    <meta name="application-name" content="Healthmug LT">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="Healthmug LT">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="apple-touch-icon" sizes="192x192" href="https://static.oxinis.com/healthmug/image/healthmug/healthmuglogo-192.png">
+
+    <link rel="shortcut icon" href="https://static.oxinis.com/healthmug/image/healthmug/healthmuglogo-32.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="https://static.oxinis.com/healthmug/css/healthmug-combined-6a75d3cd87.min.css" />   
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="brandName">
+            <a href="Header.html"><img src="https://static.oxinis.com/healthmug/image/healthmug/healthmug-logo.png" alt="Healthmug Logo"></a>
+        </div>
+        <div class="topSearch">
+            <form action="/search" method="get">
+                <div class="searchBox">
+                    <input type="text" placeholder="Search Products" name="keywords" maxlength="100" autocomplete="off" required />
+                    <button class="btn size-lg btn-healthmug"><i class="fa fa-search"></i></button>
+                </div>
+            </form>
+        </div>
+        <div class="headerTopRight">
+            <a href="contactus.html"><i class="spriteHealthmug contact"></i><span>Contact Us</span></a>
+            <a href="sellwith.html"><i class="spriteHealthmug sell"></i><span>Sell with us</span></a>
+            <div class="tooltip">
+                <a>
+                    <i class="spriteHealthmug account"></i>
+                    <span class="tooltiptext">Log In</span>
+                    <span>Sign In</span>
+                </a>
+                <div>
+
+                </div>
+            </div><a href="cart.html" id="cartbigbutton" class="cartbutton openCart"><i data-reactroot="" class="spriteHealthmug"></i></a>
+        </div>
+    </div>
+    </div>
+    </div>
+    <br>
+    <nav>
+        <div class="container">
+            <a href="" class="noLink">Disease</a>
+            <a class="noLink">Allopathy</a>
+            <a class="noLink">Homeopathy</a>
+            <a class="noLink">Ayurveda</a>
+            <a class="noLink">Unani</a>
+            <a class="noLink">Nutrition</a>
+            <a class="noLink">Personal Care</a>
+            <a class="noLink">Baby Care</a>
+            <a class="noLink">Sexual wellness</a>
+            <a class="noLink">Fitness</a>
+            <a class="noLink">Consultation</a>
+        </div>
+    </nav>
+    <div class="signupbox">
+        <div class="upperSign">
+            <h1 class="text1">Log In</h1>
+            <p class="text2">Fill your basic details</p>
+            <img class="signimg" src="https://static.oxinis.com/healthmug/image/healthmug/login-info-img.png" />
+        </div>
+        <form class="form_1" onsubmit="signin(event)" id="myForm" action="">
+            <input class="a" type="email" id="email" placeholder="Enter Email Id" />
+            <input class="a" type="password" id="password" placeholder="Enter Password" />
+            <button type="submit" class="cont">Continue</button>
+        </form>
+        <p class="backtoLogin">
+            <a href="">Terms and Condition</a>
+        </p>
+    </div>
+
+</body>
+
+</html>
+<script src="./src/login.js"></script>

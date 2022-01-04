@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Healthmug | Your Gateway to Health</title>
+  <link rel="stylesheet" href="./style/product.css"/>
+  <meta name="theme-color" content="#51c9a6">
+	<meta name="msapplication-navbutton-color" content="#51c9a6">
+	<meta name="application-name" content="Healthmug LT">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-title" content="Healthmug LT">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+	<link rel="apple-touch-icon" sizes="192x192"
+		href="https://static.oxinis.com/healthmug/image/healthmug/healthmuglogo-192.png">
+
+	<link rel="shortcut icon" href="https://static.oxinis.com/healthmug/image/healthmug/healthmuglogo-32.png"
+		type="image/x-icon">
+
+		<link rel="stylesheet" href="https://static.oxinis.com/healthmug/css/healthmug-combined-6a75d3cd87.min.css" />
+</head>
+<body class="body1">
+<div>
+  <div class="wrapper">
+    <div class="brandName"><a href="Header.html"><img src="https://static.oxinis.com/healthmug/image/healthmug/healthmug-logo.png" alt="Healthmug Logo"></a></div>
+    <div class="topSearch">
+      <form action="/search" method="get"><div class="searchBox">
+      <input type="text" placeholder="Search Products" name="keywords" maxlength="100" autocomplete="off" required />
+      <button class="btn size-lg btn-healthmug"><i class="fa fa-search"></i></button>
+      </div>
+      </form>	  
+    </div>
+    <div class="headerTopRight">
+      <a href=""><i class="spriteHealthmug contact"></i><span>Contact Us</span></a>
+      <a href=""><i class="spriteHealthmug sell"></i><span>Sell with us</span></a>
+      <div class="tooltip">
+      <div>
+          <a href="Signup.html"><i class="spriteHealthmug account"></i>
+            <span>Sign In</span></a>
+      </div>
+      <a href="Login.html"><span class="tooltiptext">Log In</span></a>
+   
+    <div>
+   
+    </div>
+   </div><a href="cart.html" id="cartbigbutton" class="cartbutton openCart"><i data-reactroot="" class="spriteHealthmug"></i></a>
+    </div>
+   </div>
+   </div>
+  </div>
+  <br>
+  <nav >
+  <div  class="container">
+      <a href="" class="noLink">Disease</a> 
+      <a class="noLink">Allopathy</a>
+      <a class="noLink">Homeopathy</a>
+      <a class="noLink">Ayurveda</a>
+      <a class="noLink">Unani</a>
+      <a class="noLink">Nutrition</a>
+      <a class="noLink">Personal Care</a>
+      <a class="noLink">Baby Care</a>
+      <a class="noLink">Sexual wellness</a>
+      <a class="noLink">Fitness</a>
+      <a class="noLink">Consultation</a>
+  </div>
+</div>
+</nav>    
+<br>
+<div class="sideLeft">
+  <h1 class="tex1">Filter By</h1>
+  <hr>
+  <h2 class="tx2">Allopathy</h2>
+  <ul>
+    <li class="tbl">Tablets & Capsules</li>
+    <li class="tbl">Allopathic Medicine</li>
+    <li class="tbl">Tablets & Capsules</li>
+    <li class="tbl">Syrups & Suspensions</li>
+    <li class="tbl">Creams & Ointments</li>
+    <li class="tbl">Inhalers & Repsules </li>
+    <li class="tbl">Oral Drops</li>
+    <li class="tbl">Eye & Ear Drops</li>
+    <li class="tbl">Nasal Dropes & Spray</li>
+    <li class="tbl">Injections & Infusions</li>
+  </ul>
+  <hr>
+  <h2 class="tx2">PRICE</h2>
+  <ul class="ulMain">
+    <li><input style="border: 3px; font-size: 12px;" type="checkbox"/><label class="ul2">Below 200</label></li>
+    <li><input  type="checkbox"/><label class="ul2">201-500</label></li>
+    <li><input  type="checkbox"/><label class="ul2">501-1000</label></li>
+    <li><input type="checkbox"/><label class="ul2">above 1000</label></li>
+  </ul>
+</div>
+<div class="rightBox">
+  <img class="imgRight" src="https://static.oxinis.com/healthmug/image/asset/19-bh-480.png"/>
+  <img class="imgRight"  src="https://static.oxinis.com/healthmug/image/asset/356-ts-480.png"/>
+  <img class="imgRight"  src="https://static.oxinis.com/healthmug/image/asset/1027-mh.jpg"/>
+</div>
+
+<div class="mainBox">
+
+  <div class="productSort">
+    <span>Sort By:</span>
+    <a class="productSort1">Popularity</a>
+    <a class="productSort1">Name</a>
+    <a class="productSort1" onclick="sortLH()">Price Low to High</a>
+    <a class="productSort1" onclick="sortHL()">Price Hight to Low</a>
+    <a class="productSort1">Discount</a>
+    <a class="productSort1">New Arrivals</a>
+  </div>
+  <hr>
+  <div class="product" id="medicine">
+</div>
+</div>
+</body>
+</html>
+<script src="./src/product.js"></script>

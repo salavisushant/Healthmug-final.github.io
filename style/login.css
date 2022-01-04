@@ -1,0 +1,157 @@
+.btn,
+article,
+body,
+button,
+div,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+html,
+input,
+label,
+li,
+ol,
+p,
+span,
+ul {
+    font-family: Roboto, sans-serif;
+}
+
+.spriteHealthmug {
+    background-image: url(https://static.oxinis.com/healthmug/css/image/sprite-healthmug.png);
+    background-repeat: no-repeat;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    left: 50%;
+    margin-left: -60px;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+body {
+    background-color: #F4F4F4;
+}
+
+nav {
+    background-color: #51C9A6;
+    height: 24px;
+    margin-top: 4%;
+}
+
+.noLink {
+    color: #FBFBFB;
+    padding: 0.84%;
+    font-size: 14px;
+}
+
+nav {
+    display: block;
+}
+
+.signupbox {
+    width: 400px;
+    height: 500px;
+    margin: auto;
+    margin-top: 1%;
+}
+
+.upperSign {
+    width: 400px;
+    height: 120px;
+    background-color: #51C9A6;
+    color: #fff;
+    border: 1px solid #51C9A6;
+}
+
+.signimg {
+    width: 100px;
+    height: 100px;
+    margin-left: 280px;
+    margin-top: -70px;
+}
+
+.text1 {
+    margin-left: 10px;
+    margin-top: 20px;
+    font-weight: initial;
+}
+
+.text2 {
+    margin-left: 10px;
+    margin-top: -10px;
+    font-weight: initial;
+}
+
+.form_1 {
+    width: 90%;
+    height: 30%;
+    border: none;
+    display: grid;
+    grid-template-rows: 20% 20% 20% 20%;
+    grid-gap: 10%;
+    margin: 10% 5% 5% 5%;
+    outline: none;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+    outline: none;
+}
+
+button:hover {
+    opacity: 1;
+}
+
+.cont {
+    width: 100%;
+    height: 150%;
+    background-color: #EC971F;
+    font-size: 17px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    opacity: 0.9;
+    margin-top: 3%;
+}
+
+.backtoLogin {
+    margin-top: 1%;
+    margin-right: 10%;
+    height: 15px;
+    color: #51C9A6;
+}
+
+input {
+    border: none;
+    outline: 0;
+    border-radius: 0;
+    border-bottom: 1px solid #b7b7b7;
+    transition: .2s;
+}
+
+.a {
+    background-color: #F4F4F4;
+}
