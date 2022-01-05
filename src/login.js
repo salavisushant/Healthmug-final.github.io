@@ -9,7 +9,7 @@ function signin(e) {
     all_users.forEach(function(user) {
 
         if (email === user.email && password === user.password) {
-            (window.location.href = "Product.html")&&alert("Login Successfully!");
+            (window.location.href = "product.html")&&alert("Login Successfully!");
         } else {
             alert("Please Enter Valid credentials")
         }
